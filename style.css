@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #333;
+    width: 100%;
+    
+}
+.first-frame{
+    transform: none;
+    background:radial-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://assets.nflxext.com/ffe/siteui/vlv3/1ecf18b2-adad-4684-bd9a-acab7f2a875f/6abbb576-106a-4175-a16e-af91cf881736/IN-en-20230116-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    width: 100%;
+    height: 760px;
+    background-size:100%;
+    flex-wrap: wrap;
+    
+    
+}
+.logoBox{
+    background-color:transparent, rgb(0, 0, 0);
+    height: 5rem;
+    left: 0;
+    bottom: 0;
+    margin:  auto;
+    max-width: 100%;
+    padding-top: 15px;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: background-color .5s;
+    width: 100%;
+    z-index: 10;
+}
+.nfTextField {
+    margin-top: 20px;
+    appearance: none;
+    border: 1px solid #8c8c8c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #000;
+    position: relative;
+    font-size: 16px;
+    height: 64px;
+    padding: 10px 11px;
+    width: 35%;
+}
+.nfTextField:focus{
+   
+    border: none;
+    border-style: none;
+    outline: none;
+}
+.footer-netflixs{
+    text-decoration: none; 
+    color: palevioletred; 
+   
+}
+.footer-netflix{
+    text-decoration: none; 
+    color: palevioletred; 
+   margin-top: 15px;
+}
